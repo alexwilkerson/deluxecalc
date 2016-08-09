@@ -17,6 +17,7 @@ body {
   text-align: right;
   top: 95px;
   right: 80px;
+  width: 230px;
   -ms-transform: rotate(-10deg);
   -webkit-transform: rotate(-10deg);
   transform: rotate(-10deg);
@@ -25,7 +26,7 @@ body {
 .numbers {
   color: #25C0C8;
   font-family: Helvetica;
-  font-size: 2.7em;
+  font-size: 2.5em;
   text-shadow: 2px 2px 0 black;
   letter-spacing: 3px;
 }
