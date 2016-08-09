@@ -15,8 +15,8 @@ body {
 .screen {
   position: absolute;
   text-align: right;
-  top: 125px;
-  right: 105px;
+  top: 95px;
+  right: 80px;
   -ms-transform: rotate(-10deg);
   -webkit-transform: rotate(-10deg);
   transform: rotate(-10deg);
@@ -32,24 +32,24 @@ body {
 
 .buttons {
   position: absolute;
-  height: 320px;
-  width: 290px;
-  top: 223px;
-  left: 75px;
+  height: 245px;
+  width: 231px;
+  top: 183px;
+  left: 60px;
   display: flex;
   flex-wrap: wrap;
 }
 
 .button {
   display: inline-block;
-  margin: 0 0 0 10px;
+  margin: 0 0 0 6px;
   flex-grow: 1;
-  height: 61px;    
-  width: calc(100% * (1/4) - 20px);
+  height: 47px;    
+  width: calc(100% * (1/4) - 10px);
 }
 
 .equals {
-  height: 122px;
+  height: 94px;
 }
 
 .bottom-row {
@@ -58,16 +58,16 @@ body {
 
 .zero {
   position: absolute;
-  left: 15px;
-  top: 260px;
-  height: 53px;
-  width: 142px;
+  left: -30px;
+  top: 200px;
+  height: 43px;
+  width: 192px;
 }
 
 .point {
   position: absolute;
   width: 66px;
-  height: 58px;
-  top: 260px;
-  left: 154px;
+  height: 47px;
+  top: 200px;
+  left: 117px;
 }
