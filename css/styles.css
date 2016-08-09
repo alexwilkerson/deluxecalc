@@ -4,11 +4,11 @@ body {
 
 .calculator {
   position: relative;
-  width: 400px;
-  height: 561px;
+  width: 360px;
+  height: 505px;
   margin: 15px auto 0 auto;
   background-image: url(../img/calc.png);
-  background-size: 400px 561px;
+  background-size: 360px 505px;
   background-repeat: no-repeat;
 }
 
