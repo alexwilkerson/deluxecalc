@@ -162,7 +162,11 @@ $(document).ready(function(){
   }
 
   function updateDisplay(num){
-    $("#screenText").text(num.substr(0, 9));
+    if (+num != 0) {
+      $("#screenText").text(+num.substr(0, 9));
+    } else {
+      $("#screenText").text(num.substr(0, 9));
+    }
   }
 
   function inputNum(num) {
