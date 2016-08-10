@@ -171,6 +171,8 @@ $(document).ready(function(){
     }
     if (workingNum === "0") {
       workingNum = num;
+    } else if (workingNum === "-0"){
+      workingNum = "-" + num;
     } else if (workingNum.length < 9){
       workingNum += num;
     }
