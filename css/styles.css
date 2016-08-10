@@ -47,6 +47,27 @@ body {
   flex-grow: 1;
   height: 47px;    
   width: calc(100% * (1/4) - 10px);
+  cursor: pointer;
+}
+
+.button:hover, .zero:hover, .point:hover {
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.button, .zero, .point {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+}
+
+.button:active, .zero:active, .point:active {
+   -ms-transform: scale(0.9);
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
 }
 
 .equals {
@@ -63,6 +84,7 @@ body {
   top: 200px;
   height: 43px;
   width: 192px;
+  cursor: pointer;
 }
 
 .point {
@@ -71,4 +93,13 @@ body {
   height: 47px;
   top: 200px;
   left: 117px;
+  cursor: pointer;
+}
+
+.operation {
+  color: #DE6C34;
+  font-family: Helvetica;
+  position: absolute;
+  right: 7px;
+  top: 50px;
 }
